@@ -114,7 +114,7 @@ services:
       - n8n_storage:/home/node/.n8n
       - ./n8n/backup:/backup
       - ./shared:/data/shared
-      - .:/usr/local/Documents/Database
+      - C:\Users\BradFleming\Documents\Database
     depends_on:
       postgres:
         condition: service_healthy
